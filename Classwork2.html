@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Online Admission Form</title>
+	<style type="text/css">
+		body{
+			background-color: darkgray;
+		}
+		h2{
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+<form>
+	<header>
+		<h2 align="center">Welcome to our Online Application Portal!</h2>
+		<h4>Start your journey with us by applying online for your desired program or opportunity.</br>
+			Just fill in the required information, upload necessary documents, and submit. It's that easy!
+		</h4>
+	</header>
+	<fieldset>
+		<legend align="center"><b>PERSONAL INFORMATION</b></legend>
+		<table border="0">
+			<tr>
+	<td><label>First Name:</label></td>
+	<td><input type="text" name="text"></td>
+	<td><label>Last Name:</label></td>
+	<td><input type="text" name="text"></td>
+	<td><label>Middle Name:</label></td>
+	<td><input type="text" name="text"></td>
+</tr>
+	<tr>
+	<td><label>Gender:</label></td>
+	<td><select>
+		<option value="" disabled selected>Gender</option>
+		<option>Male</option>
+		<option>Female</option>
+		<option>Others</option>
+	</select></td>
+	<td><label>Date of Birth</label></td>
+	<td><input type="date" name="date"></td>
+	<td><label>Place of Birth:</label></td>
+	<td><input type="text" name="text"></td>
+</tr>
+<tr>
+	<td><label>Religion</label></td>
+	<td><select>
+		<option value="" disabled selected>Choose a religion</option>
+		<option>Christian</option>
+		<option>Islam</option>
+		<option>Traditional African</option>
+		<option>Others</option>
+	</select></td>
+	<td><label>Nationality:</label></td>
+	<td><input type="text"></td>
+	<td><label>Residential Address</label></td>
+	<td><label><input type="text"></label></td>
+</tr>
+<tr>
+	<td><label>Enter email:</label></td>
+	<td><input type="email" name="email" placeholder="example@example.com" required></td>
+	<td><label>Telephone:</label></td>
+	<td><label><input type="Telephone" required></label></td>
+</tr>
+	<tr>
+		<td><label>Marital Status</label></td>
+		<td><label><input type="radio" name="studentMaritalStatus">Single</label></td>
+		<td><label></label></td>
+		<td><label>The student is under the care of</label></td>
+		<td><label><input type="radio" name="checked">Parents</label></td>
+	</tr>
+	<tr>
+		<td><label></label></td>
+		<td><label><input type="radio" name="studentMaritalStatus">Married</label></td>
+		<td><label></label></td>
+		<td><label></label></td>
+		<td><label><input type="radio" name="checked">Guardians</label></td>
+	</tr>
+	<tr>
+		<td><label></label></td>
+		<td><label><input type="radio" name="studentMaritalStatus">Divorced</label></td>
+		<td><label></label></td>
+		<td><label></label></td>
+		<td><label><input type="radio" name="checked">Self-dependence</label></td>
+	</tr>
+	<tr>
+		<td><label></label></td>
+		<td><label><input type="radio" name="studentMaritalStatus">Separated</label></td>
+	</tr>
+	<tr>
+	</tr>
+</table>
+</fieldset>
+<p></p>
+<fieldset>
+	<legend align="center"><b>ACADEMIC DATA</b></legend>
+	<table border="0">
+		<tr>
+			<td><label>Which school are you coming from:</label></td>
+			<td><label><input type="text"></label></td>
+			<td><label>Year of completion:</label></td>
+			<td><label><input type="text"></label></td>
+			<td><label>Index Number:</label></td>
+			<td><label><input type="text"></label></td>
+		</tr>
+		<tr>
+			<td><label>Upload your results here:</label></td>
+			<td><input type="file" id="file-upload" name="file-upload"></td>
+			<td><label>Passport Picture here:</label></td>
+			<td><input type="file" id="file-upload" name="file-upload"></td>
+		</tr>
+	</table>
+</fieldset>
+<p></p>
+<fieldset>
+	<legend align="center"><b>PARENT/GUARDIAN INFORMATION</b></legend>
+	<table border="0">
+		<tr>
+			<td><label><h4>Information for Father</h4></label></td>
+		</tr>
+		<tr>
+			<td><label>Name</label></td>
+		</tr>
+		<tr>
+			<td><label><input type="text" placeholder="First Name"></label></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><label><input type="text" placeholder="Last Name"></label></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td><label>Address</label></td>
+		</tr>
+		<tr>
+			<td><label><input type="text" placeholder="Street Address"></label></td>
+		</tr>
+		<tr>
+			<td><label><input type="text" placeholder="Street Address Line 2"></label></td>
+		</tr>
+		<tr></tr>
+		<tr></tr>
+		<tr>
+			<td><label><input type="text" placeholder="City"></label></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><label><input type="type" placeholder="Region"></label></td>
+		</tr>
+		<tr>
+			<td><label><input type="text" placeholder="Country"></label></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><label><input type="type" placeholder="Religion"></label></td>
+		</tr>
+		<tr></tr>
+		<tr></tr>
+		<tr>
+			<td><label>Job title</label></td>
+		</tr>
+		<tr>
+			<td><label><input type="text"></label></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td><label><input type="Telephone" placeholder="Telephone"></label></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td><label><input type="email" placeholder="Enter email"></label></td>
+		</tr>
+		<tr>
+			<td><label>Business Address</label></td>
+		</tr>
+		<tr>
+			<td><label><input type="text" placeholder="Street Address"></label></td>
+		</tr>
+		<tr>
+			<td><label>Marital Status</label></td>
+		    <td><label><input type="radio" name="fatherMaritalStatus">Single</label></td>
+		</tr>
+		<tr>
+			<td><label></label></td>
+		    <td><label><input type="radio" name="fatherMaritalStatus">Married</label></td>
+		</tr>
+		<tr>
+			<td><label></label></td>
+		    <td><label><input type="radio" name="fatherMaritalStatus">Divorced</label></td>
+		</tr>
+		<tr>
+			<td><label></label></td>
+		    <td><label><input type="radio" name="fatherMaritalStatus">Separated</label></td>
+		</tr>
+		<tr>
+			<td><label></label></td>
+		    <td><label><input type="radio" name="fatherMaritalStatus">Widowed</label></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td><label><h4>Information for Mother</h4></label></td>
+		</tr>
+		<tr>
+			<td><label>Name</label></td>
+		</tr>
+		<tr>
+			<td><label><input type="text" placeholder="First Name"></label></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><label><input type="text" placeholder="Last Name"></label></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td><label>Address</label></td>
+		</tr>
+		<tr>
+			<td><label><input type="text" placeholder="Street Address"></label></td>
+		</tr>
+		<tr>
+			<td><label><input type="text" placeholder="Street Address Line 2"></label></td>
+		</tr>
+		<tr></tr>
+		<tr></tr>
+		<tr>
+			<td><label><input type="text" placeholder="City"></label></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><label><input type="type" placeholder="Region"></label></td>
+		</tr>
+		<tr>
+			<td><label><input type="text" placeholder="Country"></label></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><label><input type="type" placeholder="Religion"></label></td>
+		</tr>
+		<tr></tr>
+		<tr></tr>
+		<tr>
+			<td><label>Job title</label></td>
+		</tr>
+		<tr>
+			<td><label><input type="text"></label></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td><label><input type="Telephone" placeholder="Telephone"></label></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td><label><input type="email" placeholder="Enter email"></label></td>
+		</tr>
+		<tr>
+			<td><label>Business Address</label></td>
+		</tr>
+		<tr>
+			<td><label><input type="text" placeholder="Street Address"></label></td>
+		</tr>
+		<tr>
+			<td><label>Marital Status</label></td>
+		    <td><label><input type="radio" name="motherMaritalStatus">Single</label></td>
+		</tr>
+		<tr>
+			<td><label></label></td>
+		    <td><label><input type="radio" name="motherMaritalStatus">Married</label></td>
+		</tr>
+		<tr>
+			<td><label></label></td>
+		    <td><label><input type="radio" name="motherMaritalStatus">Divorced</label></td>
+		</tr>
+		<tr>
+			<td><label></label></td>
+		    <td><label><input type="radio" name="motherMaritalStatus">Separated</label></td>
+		</tr>
+		<tr>
+			<td><label></label></td>
+		    <td><label><input type="radio" name="motherMaritalStatus">Widowed</label></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td><label><h4>Information for Guardian</h4></label></td>
+		</tr>
+		<tr>
+			<td><label>Name</label></td>
+		</tr>
+		<tr>
+			<td><label><input type="text" placeholder="First Name"></label></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><label><input type="text" placeholder="Last Name"></label></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td><label>Address</label></td>
+		</tr>
+		<tr>
+			<td><label><input type="text" placeholder="Street Address"></label></td>
+		</tr>
+		<tr>
+			<td><label><input type="text" placeholder="Street Address Line 2"></label></td>
+		</tr>
+		<tr></tr>
+		<tr></tr>
+		<tr>
+			<td><label><input type="text" placeholder="City"></label></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><label><input type="type" placeholder="Region"></label></td>
+		</tr>
+		<tr>
+			<td><label><input type="text" placeholder="Country"></label></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><label><input type="type" placeholder="Religion"></label></td>
+		</tr>
+		<tr></tr>
+		<tr></tr>
+		<tr>
+			<td><label>Job title</label></td>
+		</tr>
+		<tr>
+			<td><label><input type="text"></label></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td><label><input type="Telephone" placeholder="Telephone"></label></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td><label><input type="email" placeholder="Enter email"></label></td>
+		</tr>
+		<tr>
+			<td><label>Business Address</label></td>
+		</tr>
+		<tr>
+			<td><label><input type="text" placeholder="Street Address"></label></td>
+		</tr>
+		<tr>
+			<td><label>Marital Status</label></td>
+		    <td><label><input type="radio" name="guardianMaritalStatus">Single</label></td>
+		</tr>
+		<tr>
+			<td><label></label></td>
+		    <td><label><input type="radio" name="guardianMaritalStatus">Married</label></td>
+		</tr>
+		<tr>
+			<td><label></label></td>
+		    <td><label><input type="radio" name="guardianMaritalStatus">Divorced</label></td>
+		</tr>
+		<tr>
+			<td><label></label></td>
+		    <td><label><input type="radio" name="guardianMaritalStatus">Separated</label></td>
+		</tr>
+		<tr>
+			<td><label></label></td>
+		    <td><label><input type="radio" name="course">Widowed</label></td>
+		</tr>
+	</table>
+</fieldset>
+<p></p>
+<fieldset>
+	<legend align="center"><b>PROGRAMME CHOICE</legend></b>
+	<table border="0">
+		<tr>
+			<td><label><h4>Choose your desired programmes:</label></h4></td>
+		</tr>
+		<tr>
+			<td><label>First Choice Programme:</label></td>
+			<td><select>
+				<option value="" disabled selected>1st Choice of Programme</option>
+				<option>BSc Telecommunications Engineering</option>
+				<option>BSc Computer Engineering</option>
+				<option>BSc Information Technology</option>
+				<option>BSc Mobile Computing</option>
+				<option>BSc Computer Science</option>
+				<option>BSc Computer Science(Cyber Security)</option>
+				<option>BSc Software Engineering</option>
+				<option>BSc Information Systems</option>
+				<option>BSc Network and System Administration</option>
+			</select></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td><label>Second Choice Programme:</label></td>
+			<td><select>
+				<option value="" disabled selected>2nd Choice of Programme</option>
+				<option>BSc Telecommunications Engineering</option>
+				<option>BSc Computer Engineering</option>
+				<option>BSc Information Technology</option>
+				<option>BSc Mobile Computing</option>
+				<option>BSc Computer Science</option>
+				<option>BSc Computer Science(Cyber Security)</option>
+				<option>BSc Software Engineering</option>
+				<option>BSc Information Systems</option>
+				<option>BSc Network and System Administration</option>
+			</select></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td><label>Third Choice Programme:</label></td>
+			<td><select>
+				<option value="" disabled selected>3rd Choice of Programme</option>
+				<option>BSc Telecommunications Engineering</option>
+				<option>BSc Computer Engineering</option>
+				<option>BSc Information Technology</option>
+				<option>BSc Mobile Computing</option>
+				<option>BSc Computer Science</option>
+				<option>BSc Computer Science(Cyber Security)</option>
+				<option>BSc Software Engineering</option>
+				<option>BSc Information Systems</option>
+				<option>BSc Network and System Administration</option>
+			</select></td>
+		</tr>
+	</table>
+</fieldset>
+<p></p>
+	<input type="submit" value="Submit" style="width: 100px; height: 40px; display: block; margin: 0 auto;">
+</form>
+</body>
+</html>
